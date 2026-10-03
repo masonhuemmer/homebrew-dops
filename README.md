@@ -1,28 +1,10 @@
-# Homebrew Tap
+# Dops Homebrew compatibility tap
 
-Homebrew formulae for installing [dops](https://github.com/jacobhuemmer/dops-cli) via the [Homebrew](https://brew.sh/) package manager.
+Dops now lives at [masonhuemmer/dops](https://github.com/masonhuemmer/dops). The shared tap is [masonhuemmer/tap](https://github.com/masonhuemmer/homebrew-tap):
 
-## Installation
-
-```
-brew tap jacobhuemmer/tap
-brew install dops
+```sh
+brew tap masonhuemmer/tap
+brew install masonhuemmer/tap/dops
 ```
 
-Or as a one-liner:
-
-```
-brew install jacobhuemmer/tap/dops
-```
-
-## Formulae
-
-| Formula | Description |
-| ------- | ----------- |
-| [dops](Formula/dops.rb) | Developer Operations TUI — browse, parameterize, and execute runbooks from the terminal |
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh/).
-
-For dops usage and configuration, see the [dops-cli repository](https://github.com/jacobhuemmer/dops-cli).
+This repository preserves the former rundops/homebrew-tap history and continues receiving the dops formula for existing installations.
